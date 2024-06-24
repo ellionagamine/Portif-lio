@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Ellio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
     <header class="bg-dark text-white py-1">
@@ -35,8 +40,8 @@
     
     <section id="home" class="my-5">
         <div class="container">
-            <div class="d-flex flex-column flex-md-row align-items-center">
-                <div class="home-image me-md-4 mb-4 mb-md-0">
+            <div class="d-flex flex-column flex-md-row align-items-center shadow">
+                <div class="home-image me-md-4 mb-4 mb-md-0 shadow">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKMNMx79cUuHHE-VQnycTJN5MfR7xaZ7hj6g&s" class="img-fluid rounded" alt="Descrição da Imagem">
                 </div>
                 <div class="home-text text-center text-md-start">
@@ -48,9 +53,9 @@
     </section>
     <section id="about" class="my-5">
         <div class="container">
-            <h2 class="text-center mb-4">Sobre Mim</h2>
+            <h2 class="text-center mb-4 shadow">Sobre Mim</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 shadow">
                     <h3>Escolaridade</h3>
                     <ul class="list-unstyled">
                         <li><strong>Ensino Fundamental I:</strong> Escola Municipal Artur da Costa e Silva - Rolândia-PR</li>
@@ -58,7 +63,7 @@
                         <li><strong>Ensino Médio Profissonalizante:(atualmente cursando)</strong> Colégio Estadual Souza Naves - Rolândia-PR</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 shadow">
                     <h3>Cursos</h3>
                     <ul class="list-unstyled">
                         <li>Introdução ao Python - Alura</li>
@@ -66,7 +71,7 @@
                         <li>Conhecimento básico em Arduíno</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 shadow">
                     <h3>Habilidades e Competências</h3>
                     <ul class="list-unstyled">
                         <li>Trabalho em equipe e colaboração</li>
@@ -78,23 +83,82 @@
             </div>
         </div>
     </section>
-    
-  <section id="portfolio">
-    <!-- Adicione seus trabalho anterior aqui -->
-    <p>primeiro trabalho</p>
-    <p>sgundo trabahlo</p>
-    <p>terceiro trabalho</p>
-    <p>quarto travrlhp</p>
-  </section>
 
-  <section id="contact">
-    <p>tel(43)9929402941</p>
-    <p>email: gagghswds@gmail.com</p>
-    <p>rua da pamonha verde 232, cidade, estado , pais</p>
-    <!-- Adicione suas informações de contato aqui -->
-  </section>
-  <footer>
-    <!-- Adicione o conteúdo do rodapé -->
-    2034 copyright
-  </footer>
+    <section id="portfolio">
+        <div class="container">
+            <!-- Adicione seus trabalho anterior aqui -->
+            <p>primeiro trabalho</p>
+            <p>sgundo trabahlo</p>
+            <p>terceiro trabalho</p>
+            <p>quarto travrlhp</p>
+         </div>
+      </section>
+<section>
+ <div class="container">
+    <div class="row">
+        <div class="col shadow">
+            <h3>Cotatos</h3>
+            <p>
+                <a href="facebook.com">
+                    <img src="/img/icone-facebook.png" alt="facebook" width="30px">
+                    <span>Facebook</span>
+                </a>
+            </p>
+            <p>
+                <a href="intagram.com">
+                    <img src="/img/icone-instagram.png" alt="instagram" width="30px">
+                    <span>instagram</span>
+                </a>
+            </p>
+            <p>
+                <a href="linkedin.com">
+                    <img src="/img/icone-linkedin.png" alt="linkedin" width="30px">
+                    <span>linkedin</span>
+                </a>
+            </p>
+            <p>
+                <a href="#">
+                    <img src="/img/icone-whatsapp.png" alt="whatsapp" width="30px">
+                    <span>whatsapp</span>
+                </a>
+            </p>
+            <p>
+                <a href="x.com">
+                    <img src="/img/icone-x.png" alt="x" width="30px">
+                    <span>x</span>
+                </a>
+            </p>
+            <p>
+                <a href="youtube.com">
+                    <img src="/img/icone-youtube.png" alt="youtube" width="30px">
+                    <span>youtube</span>
+                </a>
+            </p>
+        </div>
+        <div class="col shadow">
+            <h3>Deixe sua mensagem</h3>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Nome</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Receber promoções</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </div>
+ </div>
+</section>
+
 </body>
